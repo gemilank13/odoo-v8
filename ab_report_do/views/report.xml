@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report 
+            id="custom_report_do"
+            model="stock.picking"
+            string="Print Delivery Order"
+            report_type="qweb-pdf"
+            name="ab_report_do.ab_report_do"
+            attachment_use="False"
+            file="ab_report_do.ab_report_do"
+        />
+    </data>
+</openerp>
